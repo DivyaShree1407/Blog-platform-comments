@@ -127,9 +127,6 @@ Open a pull request
 
 
 
-
-![Uploading Screenshot 2026-06-26 125312.png…]()
-
 👤 Author
 Divya Shree B
 GitHub: @DivyaShree1407
