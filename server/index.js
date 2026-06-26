@@ -7,7 +7,13 @@ const postRoutes = require('./routes/posts');
 const commentRoutes = require('./routes/comments');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'blog-platform-comments-4gh5nqaeb-divya-shree-b-s-projects.vercel.app'  // ← your vercel URL
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
